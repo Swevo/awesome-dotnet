@@ -759,6 +759,7 @@ metadata in media files, including video, audio, and photo formats
 * [PollyOpenTelemetry](https://github.com/Swevo/Polly-Contrib-OpenTelemetry) - OpenTelemetry instrumentation for Polly v8 resilience pipelines. Emits distributed traces and metrics for retry, circuit breaker, timeout, and hedging strategies.
 * [PollyBackoff](https://github.com/Swevo/PollyBackoff) - Backoff delay strategies for Polly v8. Provides decorrelated jitter (AWS/Marc Brooker), exponential, linear, and constant backoff as DelayGenerator delegates for RetryStrategyOptions.
 * [PollyHealthChecks](https://github.com/Swevo/PollyHealthChecks) - ASP.NET Core health checks for Polly v8 circuit breakers. Maps circuit state (Closed/HalfOpen/Open/Isolated) to Healthy/Degraded/Unhealthy.
+* [PollyRateLimiter](https://github.com/Swevo/PollyRateLimiter) - Polly v8 convenience methods for rate limiting: AddFixedWindowRateLimiter, AddSlidingWindowRateLimiter, and AddTokenBucketRateLimiter. Complements Polly'''s built-in AddConcurrencyLimiter.
 * [Aeron.NET](https://github.com/AdaptiveConsulting/Aeron.NET) - Efficient reliable UDP unicast, UDP multicast, and IPC message transport - .NET port of Aeron
 * [TypeShape](https://github.com/eiriktsarpalis/TypeShape) - TypeShape is a small, extensible F# library for practical generic programming
 * [ByteSize](https://github.com/omar/ByteSize) - ByteSize is a utility class that makes byte size representation in code easier by removing ambiguity of the value being represented. ByteSize is to bytes what System.TimeSpan is to time.
