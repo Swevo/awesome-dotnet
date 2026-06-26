@@ -818,6 +818,7 @@ metadata in media files, including video, audio, and photo formats
 * [AutoMapper](https://github.com/AutoMapper/AutoMapper) - A convention-based object-object mapper in .NET. https://automapper.org
 * [Mapperly](https://github.com/riok/mapperly) - A .NET source generator for generating object mappings. No runtime reflection.
 * [Mapster](https://github.com/MapsterMapper/Mapster) - A high performance object mapper in .net
+* [AutoMap.Generator](https://github.com/Swevo/AutoMap.Generator) - Compile-time object mapping via Roslyn source generators. Add `[Map(typeof(Dto))]` — get a strongly-typed `ToDto()` extension method at build time. Zero reflection, AOT-safe.
 
 ## Office
 
