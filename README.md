@@ -466,6 +466,7 @@ To the extent possible under law, [Vitali Fokin](https://github.com/quozd) has w
 
 ## Event aggregator and messenger
 
+* [AutoDispatch.Generator](https://github.com/Swevo/AutoDispatch.Generator) - Compile-time CQRS dispatcher using Roslyn source generators — MediatR-style command/handler pattern with zero reflection, no marker interfaces, and AOT-friendly generated dispatch code.
 * [Mediator.Net](https://github.com/mayuanyang/Mediator.Net) - A simple mediator for .NET for sending command, publishing event and request response with pipelines supported
 * [MediatR](https://github.com/jbogard/MediatR) - Simple, unambitious mediator implementation in .NET
 * [EventFlow](https://github.com/eventflow/EventFlow) - EventFlow is an Async/await first CQRS and Event Sourcing DDD framework for .NET
